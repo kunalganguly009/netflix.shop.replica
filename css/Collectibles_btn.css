@@ -1,0 +1,11 @@
+.Collectibles_btn{
+    /* height: 100px; */
+    /* margin: 0 0 0 0; */
+    width: 100%;
+    background-color: #E7E6E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+}

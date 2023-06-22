@@ -1,0 +1,80 @@
+/* body {
+    background: #3e3e3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+.carousel {
+    width: 100vw;
+    height: 115vh;
+    border-radius: 3px;
+    margin-top: -75px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+   }
+   body::-webkit-scrollbar {
+    display: none;
+  }
+  .slides_upper_screen{
+    width: 100vw;
+    height: 125vh;
+    border-radius: 3px;
+    margin-top: -30px;
+    
+background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(247,249,249,0) 20%);
+    position: absolute;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+  }
+  .slides_upper_screen .nav_shopnow_btn{
+    margin-bottom: 60px;
+  }
+.carousel:hover .controls {
+    opacity: 1;
+}
+.carousel .controls {
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 99999;
+    transition: all ease 0.5s;
+}
+.carousel .controls .control {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0.5;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+.carousel .controls .control:hover {
+    opacity: 1;
+}
+.carousel .slides {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    transition: 1s ease-in-out all;
+}
+.carousel .slides .slide {
+    min-width: 100%;
+    min-height: 250px;
+    height: auto;
+}

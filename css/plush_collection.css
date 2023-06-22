@@ -1,0 +1,19 @@
+.plush_collection{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+    color: #ffffff;
+}
+.plush_collection h1{
+margin: 0 0 0.5rem 1.9rem;
+font-size: 3.5rem;
+font-weight: 700;
+}
+
+.plush_collection p{
+    margin: 0 0 0 1.9rem;
+    /* line-height: normal; */
+    /* padding: 0; */
+    font-size: 1.25rem;
+}
